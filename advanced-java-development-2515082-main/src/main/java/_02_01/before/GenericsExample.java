@@ -9,6 +9,8 @@ public class GenericsExample {
 
         List shapes = new ArrayList();
         shapes.add("Circle");
+        System.out.println(shapes.get(0)); 
+        String circle =(String) shapes.get(0);
 
     }
 
